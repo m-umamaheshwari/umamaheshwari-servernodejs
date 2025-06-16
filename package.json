@@ -1,16 +1,16 @@
 {
   "name": "razorpay-server",
   "version": "1.0.0",
+  "description": "A Razorpay integration using Node.js and Express",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.0",
-    "razorpay": "^2.8.0",
-    "body-parser": "^1.20.0",
-    "dotenv": "^16.0.0",
-    "cors": "^2.8.5"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.6"
   }
 }
-
